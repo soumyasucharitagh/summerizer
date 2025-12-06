@@ -32,7 +32,7 @@ def summarize(text):
 
 # ----------------------- STREAMLIT UI -----------------------
 
-st.title("📰 BART Text Summarizer")
+st.title("📰Text Summarizer")
 st.write("Paste your article or blog below and get a clean summary.")
 
 user_input = st.text_area("Enter Text Here:", height=250)
